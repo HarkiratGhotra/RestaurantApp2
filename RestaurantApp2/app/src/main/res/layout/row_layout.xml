@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="80dp"
+    android:background="#000000">
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="75dp"
+    android:layout_alignParentLeft="true"
+    android:id="@+id/food_poster"
+    android:src="@drawable/burgermeal"/>
+    <TextView
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:layout_toRightOf="@+id/food_poster"
+        android:id="@+id/food_title"
+        android:text="This is food name"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:id="@+id/food_price"
+        android:layout_toRightOf="@+id/food_title"
+        android:layout_alignParentRight="true"
+        android:text="this is price"
+        android:gravity="center"
+        android:textColor="#FFFFFF"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#FFFFFF"
+        android:layout_below="@+id/food_poster"></View>
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Top 7 Food Items</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="food_items">
+        <item>Burger_meal</item>
+        <item>Chicken_meal</item>
+        <item>Chicken_wings</item>
+        <item>French_fries</item>
+        <item>Kabab</item>
+        <item>Pizza</item>
+        <item>rolls</item>
+
+    </string-array>
+    <string-array name="food_price">
+        <item> Price: $10</item>
+        <item> Price: $13</item>
+        <item> Price: $5</item>
+        <item> Price: $7</item>
+        <item> Price: $15</item>
+        <item> Price: $9</item>
+        <item> Price: $7</item>
+    </string-array>
+</resources>
